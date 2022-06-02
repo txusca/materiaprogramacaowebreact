@@ -1,0 +1,76 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.informacoes {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-projeto {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-btn-comecar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-projeto {
+  width: 250px;
+  height: 250px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.btn-comecar {
+  background-color: aquamarine;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -15px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.desenvolvedores {
+  width: 760px;
+}
+
+.list-desenvolvedores {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 10px;
+  width: 300px;
+  height: 150px;
+  display: flex;
+}
+
+li img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.info-desenvolvedores {
+  margin-left: 10px;
+}
